@@ -36,6 +36,18 @@ https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
 
 本节介绍各子任务数据集的来源及数据集使用规则、数据集下载链接及评测结果文件的提交格式。本次评测任务所用数据集来自图像描述生成任务的公开数据集Flickr8k，采用机器翻译结合人工校对的方式，我们开发了蒙语、藏语和维吾尔语的Flickr8k数据集。数据集发布后请各位参赛者自行下载并查阅。
 
+     [下载地址](https://github.com/lilin2022/IMLIP-2022-Image-Caption-evaluation-task-main)
+                   发布日期
+     训练集	       11月15日
+     开发集        11月15日
+     测试集        3月10日
+
+
+
+参考图像展示：
+
+![image](https://github.com/lilin2022/IMLIP-2022-Image-Caption-evaluation-task-main/blob/main/Image.jpg)
+
 ### 4.1    蒙语图像描述生成子任务
 蒙语图像描述生成数据集样本实例
 
