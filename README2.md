@@ -29,6 +29,7 @@ https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
 * 子任务1 蒙语图像描述生成
 * 子任务2 藏语图像描述生成
 * 子任务2 维语图像描述生成
+
 参赛者可以根据自己的研究兴趣，参与一个或多个子任务。本评测任务要求各位参赛者在现有评测系统基础上针对给定的测试集，研发新的自动评测算法，该评测算法要求在测试集上所得评测结果尽可能地与人工评测结果一致。我们将为参与者提供任务所需数据集和评价方法，并采用客观的评价指标结果作为提交算法的最终成绩。
 
 ## 4.    评测数据简介下载
@@ -36,7 +37,7 @@ https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
 本节介绍各子任务数据集的来源及数据集使用规则、数据集下载链接及评测结果文件的提交格式。本次评测任务所用数据集来自图像描述生成任务的公开数据集Flickr8k，采用机器翻译结合人工校对的方式，我们开发了蒙语、藏语和维吾尔语的Flickr8k数据集。数据集发布后请各位参赛者自行下载并查阅。
 
 ### 4.1    蒙语图像描述生成子任务
-
+蒙语图像描述生成数据集样本实例
 
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=570
@@ -231,7 +232,7 @@ https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
 
     
 ### 4.2    藏语图像描述生成子任务
-
+藏语图像描述生成数据集样本实例
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;mso-table-layout-alt:fixed;border:none;
  mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:1184;mso-padding-alt:
@@ -346,7 +347,7 @@ https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
 
 
 ### 4.3    维语图像描述生成子任务
-
+维语图像描述生成数据集样本实例
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;mso-table-layout-alt:fixed;border:none;
  mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:1184;mso-padding-alt:
@@ -507,7 +508,9 @@ https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
   参赛者需提供与给定数据集原始句子索引号相对应的评测结果。方便赛事官方进行结果校验。
 提交前，文件需依规范正确命名，并压缩成 .zip 格式文件的压缩包。
 
-提交结果命名：track1_test.zip    #压缩包名字
+提交结果命名：
+
+               track1_test.zip    #压缩包名字
 
              └── yaclc-csc-test.cvs	# 预测结果文件
              
@@ -521,6 +524,7 @@ https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
 ## 6.    评价标准
 
 目前的图像描述生成常用的评测指标包括BLEU、METEOR、ROUGE和CIDEr等。但自动评测方法也存在许多不足之处，如强调生成文本与标准答案之间的 n-gram 重叠，而不考虑生成文本的准确性来评价系统。为了深入理解并解决图像描述生成系统评测问题，先提出本共享任务。
+
 同时为保证参赛者作品的真实性和有效性，我们将通过计算各参赛团队算法提交的自动评测结果和人工评测结果之间的肯德尔等级相关系数（Kendall's tau coefficient）来衡量该算法的好坏，得分高者为优。
 
 ## 7.    评测赛程
