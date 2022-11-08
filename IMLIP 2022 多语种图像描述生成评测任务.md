@@ -20,8 +20,7 @@
 * 高歌（中央民族大学）
 * 崔璐明（青海师范大学）
 
-评测任务更详细内容可查看评测网站：
-https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
+评测任务更详细内容可查看评测网站：https://github.com/lilin2022/IMLIP-2022-Image-Caption-evaluation-task-main
 遇到任何问题请发邮件imlip_2022@163.com或者在Issue中提问，欢迎大家参与。
 
 ## 3.    任务简介
@@ -34,15 +33,7 @@ https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
 
 ## 4.    评测数据简介下载
 
-本节介绍各子任务数据集的来源及数据集使用规则、数据集下载链接及评测结果文件的提交格式。本次评测任务所用数据集来自图像描述生成任务的公开数据集Flickr8k，采用机器翻译结合人工校对的方式，我们开发了蒙语、藏语和维吾尔语的Flickr8k数据集。数据集发布后请各位参赛者自行下载并查阅。
-
-     [下载地址](https://github.com/lilin2022/IMLIP-2022-Image-Caption-evaluation-task-main)
-                   发布日期
-     训练集	       11月15日
-     开发集        11月15日
-     测试集        3月10日
-
-
+本节介绍各子任务数据集的来源及数据集使用规则、数据集下载链接及评测结果文件的提交格式。本次评测任务所用数据集来自图像描述生成任务的公开数据集Flickr8k，采用机器翻译结合人工校对的方式，我们开发了蒙语、藏语和维吾尔语的Flickr8k数据集。数据集发布后请各位参赛者自行访问我们的网站下载并查阅。
 
 参考图像展示：
 
@@ -539,7 +530,7 @@ https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
 
 同时为保证参赛者作品的真实性和有效性，我们将通过计算各参赛团队算法提交的自动评测结果和人工评测结果之间的肯德尔等级相关系数（Kendall's tau coefficient）来衡量该算法的好坏，得分高者为优。
 
-## 7.    评测赛程
+## 7.    评测任务日程安排
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="103%"
  style='width:103.54%;margin-left:-5.7pt;border-collapse:collapse;border:none;
@@ -764,7 +755,7 @@ https://github.com/Ming-360/IMLIP-2022-Image-Caption-evaluation-task
 
 
 ## 8.    报名方式
-以机构、团体或个人名义均可报名参加，有意向的参赛者可通过发送邮件的方式进行报名，地址为imlip_2022@163.com，参赛者应提供队名、单位、联系方式等个人信息，方便与各位参赛者取得联系。
+以机构、团体或个人名义均可报名参加，有意向的参赛者可通过评测网站进行报名，为方便各位参赛者也可通过邮箱与我们取得联系，邮箱地址为imlip_2022@163.com。
 
 ## 参考文献
 1.    Li X, Lan W, Dong J, et al. Adding chinese captions to images[C]//Proceedings of the 2016 ACM on international conference on multimedia retrieval. 2016: 271-275.
